@@ -1,0 +1,13 @@
+Task 3 Notes — Interactive Power BI Dashboard
+
+1. **What changed in the customer table when the filter direction was Both?**  
+   With Single direction and Laptop selected, all four customers were displayed. With Both direction, only Ali Khan was displayed because the filter could travel from Products through Sales to Customers.
+
+2. **Which customer has no orders?**  
+   Hina.
+
+3. **Which product was never sold?**  
+   Monitor.
+
+4. **Why does Computers Sales show 900 on the Accessories row?**  
+   The CALCULATE function replaces the existing Category filter with the filter Products[Category] = "Computers". Therefore, Computers Sales remains 900 even when the current row is Accessories.
